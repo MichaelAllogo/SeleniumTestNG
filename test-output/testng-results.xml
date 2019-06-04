@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-04T10:35:04Z" name="Default suite" finished-at="2019-06-04T10:35:16Z" duration-ms="12584">
+  <suite started-at="2019-06-04T13:38:20Z" name="Default suite" finished-at="2019-06-04T13:38:34Z" duration-ms="14259">
     <groups>
     </groups>
-    <test started-at="2019-06-04T10:35:04Z" name="Default test" finished-at="2019-06-04T10:35:16Z" duration-ms="12584">
+    <test started-at="2019-06-04T13:38:20Z" name="Default test" finished-at="2019-06-04T13:38:34Z" duration-ms="14259">
       <class name="tuto.eclipse.testCases.TestBookingJAL1">
-        <test-method signature="testBooking1()[pri:0, instance:tuto.eclipse.testCases.TestBookingJAL1@424fd310]" started-at="2019-06-04T10:35:04Z" name="testBooking1" finished-at="2019-06-04T10:35:16Z" duration-ms="12549" status="PASS">
+        <test-method signature="testBooking1()[pri:0, instance:tuto.eclipse.testCases.TestBookingJAL1@74a6a609]" started-at="2019-06-04T13:38:20Z" name="testBooking1" finished-at="2019-06-04T13:38:34Z" duration-ms="14228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBooking1 -->
