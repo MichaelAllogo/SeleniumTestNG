@@ -2,7 +2,9 @@ package tuto.eclipse.jal.selenium.loaders;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,7 +16,7 @@ public class MyDriver {
 	private static final String EDGE = "edge";
 	private static final String PATH_FIREFOX_DRIVER = "C:\\GeckoDriver.exe";
 	private static final String PATH_EDGE_DRIVER = "C:\\edgedriver.exe";
-	private static final String PATH_CHROME_DRIVER = "C:\\Users\\formation\\Documents\\ChromeDrivers\\chromedriver.exe";
+	private static final String PATH_CHROME_DRIVER = "C:\\chromedriver.exe";
 	public static WebDriver driver;
 //	private final String defaultBrowser = "chrome";
 
@@ -33,13 +35,13 @@ public class MyDriver {
 				System.out.println("Loading Edge WebDriver");
 				driver = new EdgeDriver();
 				break;
-				
+
 			case CHROME:
 				System.setProperty("webdriver.chrome.driver", PATH_CHROME_DRIVER);
 				System.out.println("Loading Chrome WebDriver");
 				driver = new ChromeDriver();
 				break;
-				
+
 			default:
 				System.setProperty("webdriver.chrome.driver", PATH_CHROME_DRIVER);
 				System.out.println("Loading Chrome WebDriver");
@@ -89,6 +91,14 @@ public class MyDriver {
 
 	public static void quitDriver() {
 		driver.quit(); // closes all windows
+	}
+
+	public static WebElement findElement(By id) {
+		return null;
+	}
+
+	public static WebDriver findElements(By cssSelector) {
+		return null;
 	}
 
 }
